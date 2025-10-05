@@ -8,7 +8,7 @@ Expecting Python version 3.13 or higher.
 
 2. IDE
 
-Examples are using Visual Code. Pelase feel free to use any IDE of your preference.
+Examples are using Visual Code. Please feel free to use any IDE of your preference.
 
 In Visual Code, open a terminal and verify the python in use.
 
@@ -16,7 +16,7 @@ In Visual Code, open a terminal and verify the python in use.
 $ python --version
 ```
 
-3. Create a wworking environment
+3. Create a working environment
 
 ```
 python -m venv /path/to/virtual/environment
