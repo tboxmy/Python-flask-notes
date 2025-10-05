@@ -17,8 +17,9 @@ Combine the information provided in these notes to create the following app.
 - Page title
 - A welcome message
 - Link to the page (GET /item)
+- Link to the page (GET /registration)
 
 2. Create the page (GET /item) to show the item details as shown in the templates/item.html example.
 
-
+3. Create the page (GET /registration) to show a user registration form. Enable the Submit button that sends (POST /registration) route that add the user registration to a sqlite database. Perform validations where needed.
 
