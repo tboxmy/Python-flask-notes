@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/item')
-def index():
+def get_item():
     items = ["Apple", "Banana", "Ciku"]
     item = 1
     quantity = 200
