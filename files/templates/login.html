@@ -1,0 +1,23 @@
+   <!DOCTYPE html>
+    <html>
+    <head>
+        <title>My Application</title>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <section>
+			<div id="divError"></div>
+			<h2> Please login </h2>
+			<form id="formUserLogin" method="POST" action="/login">
+				<label> User Name: </label>
+				<input type="text" id = "txtUserName" name = "userName" required="required"> <br> <br>
+				
+				<label> Password: </label>
+				<input type="password" id = "txtPassword" name = "password" required="required"> <br><br> 
+				<input type="submit" id = "btnLogin" value="Login">
+			</form> 
+		</section>
+
+        <p><a href={{ url_for("index") }}>Index</a>
+    </body>
+    </html>
